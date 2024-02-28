@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: arquetipo-arquitectura-hexagonal
+  host: ${HOST:localhost}
+  port: ${PORT:8080}
+
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://ejemplo:5432/postgres}
+    username: ${DATABASE_USERNAME:postgres}
+    password: ${DATABASE_PASSWORD:pass}
+    driver-class-name: ${DATABASE_DRIVER:org.postgresql.Driver}
+  jpa:
+    database-platform: ${DATABASE_PLATFORM:org.hibernate.dialect.PostgreSQLDialect}
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+      format_sql: true

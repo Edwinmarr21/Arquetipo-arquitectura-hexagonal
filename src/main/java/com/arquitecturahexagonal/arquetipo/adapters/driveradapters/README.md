@@ -1,0 +1,3 @@
+# Adapadores de entrada #
+
+Son aquellos puntos de entrada de la aplicación, en este caso, un con trolador rest. Pero así mismo puede ser una suscripción a una cola de sqs, etc...
